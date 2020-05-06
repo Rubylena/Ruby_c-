@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Task 4";
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Square Root</h1>
+    
+@if(ViewBag.one == null){
+        <p>Enter your values</p>
+    } else if(ViewBag.two == null){
+        <p>Enter your values</p>
+    }
+    else if(ViewBag.Root1 == ViewBag.Root2)
+    {        
+            <p>Numbers entered have the same square root, enter another value.</p>
+    } else if (ViewBag.Root1 > ViewBag.Root2) {
+        <p>
+            The number @ViewBag.One with square root @ViewBag.Root1 has a higher square root than the number @ViewBag.Two with square root @ViewBag.Root2
+        </p>
+    } else if (ViewBag.Root2 > ViewBag.Root1) {
+        <p>
+            The number @ViewBag.Two with square root @ViewBag.Root2 has a higher square root than the number @ViewBag.One with square root @ViewBag.Root1
+        </p>
+    } else if(ViewBag.one < 0){
+            <p>Error: input only positive integers</p>
+    }
+    else if(ViewBag.two < 0){
+            <p>Error: input only positive integers</p>
+    }
+
+    <form asp-controller="Root" asp-action="Sqrroot" method="post">
+    <input style="background-color:  #ff9800; border: none; border-radius: 4px; margin-top: 1.5vh; padding: 3px;" type="number" name="firstNumber" placeholder="number"><br>
+    <input style="background-color:  #ff9800; border: none; border-radius: 4px;  margin-top: 1.5vh; padding: 3px;" type="number" name="secondNumber" placeholder="number"><br>
+    <button style="margin-top: 1vh; padding: 2px;" type="submit"> Square root</button>
+    </form>
+
+</div>
