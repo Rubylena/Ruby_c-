@@ -8,8 +8,6 @@ namespace WebApplication.Controllers
 {
         public class RootController : Controller
         {
-            // public double root {get; set;}
-
             [HttpGet]
             public ActionResult Sqrroot()
         {
@@ -19,8 +17,8 @@ namespace WebApplication.Controllers
             [HttpPost]
             public ActionResult Sqrroot(string firstNumber, string secondNumber)
         {
-            double one = int.Parse(firstNumber);
-            double two = int.Parse(secondNumber);
+            int one = int.Parse(firstNumber);
+            int two = int.Parse(secondNumber);
             
             ViewBag.One = one;
             ViewBag.Two = two;
