@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\c#\\WebApplication\\WebApplication.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Ruby_c-\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\c#\\WebApplication\\WebApplication.csproj": {
+    "C:\\Users\\HP\\Desktop\\Ruby_c-\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\c#\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Ruby_c-\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\HP\\c#\\WebApplication\\WebApplication.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Ruby_c-\\WebApplication\\WebApplication.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\c#\\WebApplication\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Ruby_c-\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
